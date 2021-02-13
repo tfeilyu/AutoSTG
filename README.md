@@ -1,6 +1,11 @@
-# AutoSTG
+# AutoSTG: Neural Architecture Search for Predictions of Spatio-Temporal Graphs
 
-This is the PyTorch implementation of AutoSTG.
+![Framework of ST-MetaNet](framework.jpg)
+
+This is the PyTorch implementation of AutoSTG in the following paper:
+
+- Zheyi Pan, Songyu Ke, Xiaodu Yang, Yuxuan Liang, Yong Yu, Junbo Zhang and Yu Zheng. [AutoSTG: Neural Architecture Search for Predictions of Spatio-Temporal Graphs](http://panzheyi.cc/publication/pan2021autostg/paper.pdf). 2021. 
+In Proceedings of the Web Conference.
 
 ---
 
@@ -54,6 +59,15 @@ The description please refers to the repository of [DCRNN](https://github.com/li
 2. `bash test_on_gpu0.sh`.
 
 **Note that:** The given pre-trained models are trained under PyTorch 1.1.0 and can be loaded under other compatible versions (PyTorch 1.5.0 and 1.6.0 with Python 3.7 are tested) with expected behaviors (i.e., the same predicting error).  
+
+---
+
+## Citation
+
+If you find this repository, e.g., the code and the datasets, useful in your research, please cite the following paper:
+
+- Zheyi Pan, Songyu Ke, Xiaodu Yang, Yuxuan Liang, Yong Yu, Junbo Zhang and Yu Zheng. [AutoSTG: Neural Architecture Search for Predictions of Spatio-Temporal Graphs](http://panzheyi.cc/publication/pan2021autostg/paper.pdf). 2021. 
+In Proceedings of the Web Conference.
 
 ---
 
